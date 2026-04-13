@@ -11,7 +11,7 @@ public class RectangleTest {
     @Test
     @DisplayName("Pregunta1: Rectangulo común")
     void testCrearRectanguloComun(){
-        Rectangle r = new Rectangle(10.0, 10.0);
+        Rectangle r = new Rectangle(10.0, 5.0);
         assertEquals(50.0, r.area(), "El area deberia ser 50");
         assertFalse(r.isSquare());
     }
